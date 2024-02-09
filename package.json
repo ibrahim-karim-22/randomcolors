@@ -4,7 +4,7 @@
   "description": "challenge 2 week 4",
   "source": "index.html",
   "scripts": {
-    "start": "parce --open",
+    "start": "parcel --open",
     "build": "parcel build"
   },
   "keywords": [],
