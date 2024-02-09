@@ -23,16 +23,15 @@ document.getElementById('colorBtn').addEventListener('click', function(){
 //style container
 //let color/image chosen by getRandomColor appear on the page
     document.getElementById('container').style.backgroundColor = color;
-    document.getElementById('container').style.padding = '55px';
     document.getElementById('container').style.border = '5px';
-    document.getElementById('container').style.borderStyle = 'dashed';
+    document.getElementById('container').style.borderStyle = 'line';
     document.getElementById('container').style.borderRadius = '122px';
     document.getElementById('container').style.borderColor = 'black';
 //let the info/text of color chosen by getRandomColor appear on the page
     document.getElementById('colorCode').innerText = 'Color Code:\n' + color;
     document.getElementById('colorCode').style.fontFamily = 'Protest Revolution, sans-serif';
     //document.getElementById('colorCode').style.paddingLeft = '3px';
-    document.getElementById('colorCode').style.fontSize = '122px';
+    document.getElementById('colorCode').style.fontSize = '77px';
 });
 //attatch moueover event listener
 document.getElementById('colorBtn').addEventListener('mouseover', function(){
