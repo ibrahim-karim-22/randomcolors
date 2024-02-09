@@ -44,5 +44,5 @@ document.getElementById('colorBtn').addEventListener('mouseout', function(){
 //attach a click event listener
 document.getElementById('resetBtn').addEventListener('click', function(){
     document.getElementById('container').style.backgroundColor = '#FFFFFF';
-    document.getElementById('colorCode').innerText = '#FFFFFF';
+    document.getElementById('colorCode').innerText = '#FFFFFF (white)';
 });
